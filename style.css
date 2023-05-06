@@ -1,0 +1,1657 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: black; */
+    
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    /* add other styling properties here */
+}
+
+.navbar-main{
+    background-color:rgb(8, 3, 3);
+    height: 40px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    position: relative;
+
+}
+
+
+   
+   .first{
+    /* background-color: green; */
+    height: 255px;
+    width: 970px;
+   }
+
+   .first img{
+    margin-top: 82px;
+   }
+
+   .second{
+    /* background-color: blue; */
+    height:40px ;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .list1{
+    /* background-color: orange; */
+    height: 40px;
+    display: flex;
+    
+   }
+   .list2{
+    /* background-color: pink; */
+    height: 40px;
+    display: flex;
+   
+   }
+   .list1-items,.list2-items{
+    margin-right: 20px;
+    border-right: 5px solid black;
+    color: white;
+    padding-top: 12px;
+    
+   }
+   .list1-items{
+    margin-left: 15px;
+   }
+   #btn{
+    background: black;
+    margin-top: -10px;
+    width: 60px;
+    height: 30px;
+    padding: 0px;
+    color: white;
+    border:2px solid white;
+    border-radius: 6px;
+    cursor:pointer;
+   }
+   #btn:hover{
+    background-color: grey;
+   }
+   .navbar-trend{
+    background-color:white;
+   }
+
+   .trend-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .list1-items3, #img{
+    margin-bottom:43px;
+    background-color: blue;
+   }
+
+   .trend-heading{
+     font-size: 12px;
+
+   }
+
+   #trend-bar{
+    margin: 5px;
+    font-size:20px;
+    border-right: 2px solid grey;
+   }
+   .trending-heading h1, p{
+    cursor:pointer;
+   }
+   .trending-heading h1, p:hover{
+    text-decoration: underline;
+   }
+
+   .box-content{
+    margin-left: 20px;
+    margin-top: 98px;
+  
+}
+
+.box-container1{
+   padding: 10px 0 10px 0;
+   display: flex;
+}
+.head1-box{
+    /* background-color: blue; */
+    margin-left: 20px;
+    padding: 30px 20px 30px 20px;
+
+}
+.top-headline{
+    cursor: pointer;
+}
+.card-text1{
+    margin-top: 10px;
+    
+}
+.list-top{
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+    /* background-color: red; */
+    
+}
+.list-top:hover{
+    text-decoration: underline;
+}
+
+
+.font-arrow{
+    color: red;
+    padding: 20 10px 10 10;
+    cursor: pointer;
+}
+.font-arrow:hover{
+    text-decoration: underline;  
+}
+
+.head2-box{
+    padding: 0 20px 0px 20px;
+    
+}
+.card{
+    /* background-color: red; */
+    margin-left: 6px;
+    padding: 0px 10px 10px 10px;
+}
+.card-image1{
+    width: 420px;
+    height: 220px;
+    background-color: red;
+    padding: 0px 0px 0px 0px;
+    
+}
+.box-container2{
+    display: flex;
+}
+.card2{
+    /* background-color: brown; */
+    padding: 0 10px 10px 10px;
+    margin-left:-24px;
+    
+}
+.card-image2{
+    width: 209px;
+    height: 120px;
+    background-color: green;
+    margin-top: 20px;
+}
+.card-text2{
+    /* text-align: center; */
+    /* margin-top: 20px; */
+    /* background-color: red; */
+    padding: 10px 0 10px 0;
+    font-weight: 600;
+}
+.card-image4{
+    width: 209px;
+    height: 120px;
+    background-color: yellow;
+    margin-top: 20px;
+}
+.card-text1{
+    margin-top:10px ;
+    background-color: red;
+}
+.card-text1-lead{
+    margin-top:10px ;
+    /* background-color: red; */
+    font-weight: 600;
+    padding: 10px 0 10px 0;
+}
+.card-image3{
+    width: 209px;
+    height: 120px;
+    background-color: blue;
+    margin-top: 20px;
+}
+.card-text3{
+    font-size: 10px;
+    font-weight: 800;
+    /* background-color: green; */
+}
+
+.card-text4{
+    font-weight: 600;
+    padding: 10px 0 10px 0; 
+}
+
+
+.line-containers{
+    
+}
+
+.line-content{
+ display: flex;
+
+
+
+}
+.long-line{
+    width:180px;
+    height: 2px;
+    background-color: blueviolet;
+    /* margin-top: 10px; */
+   
+}
+.short-line{
+    width:20px;
+    height: 2px;
+    background-color: brown;
+    position: relative;
+    top: -1px;
+    right: 1px;
+    
+}
+.long-line1{
+    width:400px;
+    height: 2px;
+    background-color: blueviolet;
+    /* margin-top: 10px; */
+}
+.short-line2{
+    width:20px;
+    height: 2px;
+    background-color: brown;
+    position: relative;
+    top: -1px;
+    right: 1px;
+    
+}
+.long-line3{
+    width:180px;
+    height: 2px;
+    background-color: blueviolet;
+    /* margin-top: 10px; */
+   
+
+   
+}
+.short-line4{
+    width:20px;
+    height: 2px;
+    background-color: brown;
+    position: relative;
+    top: -1px;
+    left: 1px;
+    
+}
+.first-line{
+    /* background-color: yellow; */
+    height: 50px;
+   position: relative;
+   left: 10px;
+}
+.second-line{
+    /* background-color: blue; */
+    height: 50px;
+    
+}
+
+.third-line{
+    /* background-color: red; */
+    height: 50px;
+     position: relative;
+     top:140px;
+     right: 130px;
+}
+
+.card5{
+    /* background-color: red; */
+    margin-right: 15px;
+    padding: 0px 10px 10px 10px;
+}
+
+.card-image5{
+    width: 209px;
+    height: 120px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: -2px;
+}
+.card6{
+    padding: 20px 10px 20px 10px; 
+    /* background-color: brown; */
+    height: 80px; 
+}
+.card-image6{
+    width: 420px;
+    height: 220px;
+    background-color: red;
+    /* padding: 10px 10px 10px 10px; */
+}
+.card7{
+    width: 209px;
+    height: 120px;
+    background-color: grey;
+    /* padding-top: 10px;  */
+}
+.commercial-box{
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    /* background-color:yellow ; */
+    height: 60px;
+    width:300px ;
+}
+.card2-text{
+    font-size: 10px;
+}
+.card-text3{
+  font-size: 15px;
+  font-weight: 600;
+
+}
+.travel{
+    padding: 10px 0 10px 0;
+}
+.box-outlay{
+/* display: flex; */
+position: relative;
+left:5px;
+ padding: 10px;
+}
+
+.color-boxes2{
+   position: relative;
+   right: 30px;
+   width:300px;
+   height: 650px;
+   /* background-color: brown; */
+}
+.box-outlay{
+    display: flex;
+}
+
+.said-text{
+    padding:10px 0 20px 4px;
+}
+.purple-box{
+    width:80px;
+    height: 80px;
+    background-color:purple;
+    margin: 10px;
+    
+
+}
+.blue-box{
+    width:80px;
+    height: 80px;
+    background-color: blue;
+    margin: 10px;
+}
+.green-box{
+    width:80px;
+    height: 80px;
+    background-color: green;
+    margin: 10px;
+}
+
+.yellow-box{
+    width:160px;
+    height: 80px;
+    background-color:yellow;
+    margin: 10px;
+    
+
+}
+.grey-box{
+    width:160px;
+    height: 80px;
+    background-color:grey;
+    margin: 10px;
+}
+.orange-box{
+    width:160px;
+    height: 80px;
+    background-color: orange;
+    margin: 10px;
+}
+
+
+.line-containers2{
+   margin-top: 650px; 
+}
+
+.line-content{
+ display: flex;
+
+
+
+}
+.long-line{
+    width:180px;
+    height: 2px;
+    background-color: grey;
+    /* margin-top: 10px; */
+   
+}
+.short-line{
+    width:20px;
+    height: 2px;
+    background-color: red;
+    position: relative;
+    top: -1px;
+    right: 1px;
+    
+}
+.long-line1{
+    width:400px;
+    height: 2px;
+    background-color: grey;
+    /* margin-top: 10px; */
+}
+.short-line2{
+    width:20px;
+    height: 2px;
+    background-color: red;
+    position: relative;
+    top: -1px;
+    right: 1px;
+    
+}
+.long-line3{
+    width:180px;
+    height: 2px;
+    background-color: grey;
+    /* margin-top: 10px; */
+   
+
+   
+}
+.short-line4{
+    width:20px;
+    height: 2px;
+    background-color: red;
+    position: relative;
+    top: -1px;
+    left: 1px;
+    
+}
+.first-line{
+    /* background-color: yellow; */
+    height: 50px;
+   position: relative;
+   left: 10px;
+}
+.second-line{
+    /* background-color: blue; */
+    height: 50px;
+    
+}
+
+.third-line{
+    /* background-color: green; */
+    height: 50px;
+     position: relative;
+     top:130px;
+     right: 170px;
+}
+.fourth-line{
+    /* background-color: red; */
+    height: 50px;
+     position: relative;
+     top:-1px;
+     right: -30px;
+}
+
+.card5{
+    /* background-color: red; */
+    margin-right: 15px;
+    padding: 0px 10px 10px 10px;
+}
+
+.card-image5{
+    width: 209px;
+    height: 120px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: -2px;
+}
+.card6{
+    padding: 20px 10px 20px 10px; 
+    /* background-color: brown; */
+    height: 80px; 
+}
+.card-image6{
+    width: 420px;
+    height: 220px;
+    background-color: red;
+    /* padding: 10px 10px 10px 10px; */
+}
+.card7{
+    width: 209px;
+    height: 120px;
+    background-color: grey;
+    /* padding-top: 10px;  */
+}
+.commercial-box1{
+    position: relative;
+    left: 1px;
+    top: 20px;
+    /* background-color:yellow ; */
+    height: 200px;
+    width:300px ;
+}
+.commercial-text{
+    padding: 10px 0 0 0;
+    /* background-color: blue; */
+    width: 300px;
+    height: 300px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.card2-text{
+    font-size: 10px;
+}
+.card-text3{
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 0 0 0;
+
+}
+.travel{
+    padding: 10px 0 10px 0;
+}
+.box-outlay{
+/* display: flex; */
+position: relative;
+left:5px;
+ padding: 10px;
+}
+
+.color-boxes2{
+    /* background-color: green; */
+    padding: 60px 0 0 0px;
+    position: relative;
+    right: 24px;
+    bottom: 70px;
+   
+}
+.box-outlay{
+    display: flex;
+}
+
+.said-text{
+    padding:10px 0 0px 0px;
+    /* background-color: red; */
+}
+.said-text1{
+    padding:10px 0 0px 58px;
+    /* background-color: red; */
+}
+.purple-box{
+    width:80px;
+    height: 80px;
+    background-color:purple;
+    margin: 10px;
+    
+
+}
+.blue-box{
+    width:80px;
+    height: 80px;
+    background-color: blue;
+    margin: 10px;
+}
+.green-box{
+    width:80px;
+    height: 80px;
+    background-color: green;
+    margin: 10px;
+}
+
+.yellow-box{
+    width:160px;
+    height: 80px;
+    background-color:yellow;
+    margin: 10px;
+    
+
+}
+.grey-box{
+    width:160px;
+    height: 80px;
+    background-color:grey;
+    margin: 10px;
+}
+.orange-box{
+    width:160px;
+    height: 80px;
+    background-color: orange;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .vertical-container{
+    margin-top:6800px;
+}
+
+.top-vertical{
+    display: flex;
+    margin-left: 150px;
+    justify-content: space-between;
+}
+.vertical-line{
+    width: 300px;
+    height: 3px;
+    background-color: grey;
+    margin: 18px;
+    display: flex;
+}
+.small-line{
+    width:20px;
+    height: 3px;
+    background-color: red;
+    
+}
+
+#vertical-line1{
+ position: relative;
+ right: 122px;   
+}
+#small-line1{
+    position: relative;
+    bottom: -20px;
+    right:602px;
+}
+#vertical-line2{
+    position: relative;
+    left:150px;
+}
+#small-line2{
+position: relative;
+right: 330px;
+top: 20px;
+}
+
+.vertical-head{
+    display: flex;
+    margin-left: 30px;
+}
+.vertical-features1{
+    position: relative;
+    left:130px;
+    bottom: 20px; 
+}
+.vertical-features2{
+    position: relative;
+    left:450px;
+    bottom: 20px;
+}
+.vertical-features3{
+ position: relative;
+ left:760px;
+ bottom: 20px;
+ 
+}
+#head-tag{
+    font-size: 11px;
+    position: relative;
+    right: 114px;
+    top:9px;
+}
+#head-tag1{
+    font-size: 13px;
+    position: relative;
+    left:88px;
+    top:9px;
+    font-size: 11px;
+}
+.vertical-image{
+    margin-left: 30px;
+}
+.folder-text{
+  position: relative;
+  left: 132px;
+  bottom: 80px;
+}
+.folder-image2{
+    margin-left: 30px; 
+}
+.vertical-image{
+  display: flex;
+}
+
+.vertical-image1{
+   width:320px;
+   height: 230px; 
+   background-color: red;
+   margin: 10px;
+   position: relative;
+   bottom: 10px;
+   cursor: pointer;
+}
+.vertical-image1::before{
+ background-color:blue;
+}
+.vertical-image2{
+   width: 600px;
+   height: 500px;
+   background-color: yellow;
+   margin: 10px;
+   position: relative;
+   bottom: 40px;
+   cursor: pointer;
+}
+.vertical-image3{
+    width:320px;
+    height: 230px; 
+    background-color: blue;
+    margin: 10px;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+ }
+ .vertical-sub-heading{
+    display: flex;
+ }
+ .sub-heading1{
+    position: relative;
+    bottom: 260px;
+    left:40px;
+    font-weight: 700;
+ }
+ .sub-heading2{
+    position: relative;
+    bottom: 36px;
+    left:240px;
+    font-weight: 700;
+ }
+
+
+ .sub-heading3{
+    position: relative;
+    bottom: 260px;
+    left:730px; 
+    font-weight: 700;
+ }
+ .vertical-sub-images{
+  display: flex;
+  margin: 8px;
+  position: relative;
+  
+ }
+ .vertical-sub-images1{
+  display: flex;
+  margin: 8px;
+ 
+ 
+
+ }
+ 
+ .sub-image1{
+    width:130px;
+    height: 76px;
+    background-color: red;
+    margin: 8px;
+ }
+
+ #sub-image1{
+    position: relative;
+    bottom: 240px;
+    left:30px;
+    margin: 8px;
+ }
+
+ #sub-image-text1{
+    position: relative;
+    bottom: 230px;
+    left:30px;
+    margin: 4px;
+    cursor: pointer;
+ }
+ #sub-image2{
+    width:130px;
+    height: 76px;
+    background-color: red;
+    position: relative;
+    left:90px;
+    bottom: 20px;
+    margin: 8px;
+ }
+ #sub-image-text2{
+ position: relative;
+ left:90px;
+ margin: 4px;
+  cursor: pointer;
+ }
+
+ #sub-image3{
+    width:130px;
+    height: 76px;
+    background-color: red;
+    position: relative;
+    left:460px;
+    bottom: 240px;
+    margin: 8px;
+ }
+
+ 
+ #sub-image-text3{
+   position: relative;
+   left:460px;
+    bottom: 240px;
+    margin: 4px;
+    cursor: pointer;
+ }
+
+
+
+ .vertical-sub-images2{
+  display: flex;
+  margin: 8px;
+
+ }
+ .vertical-sub-images3{
+  display: flex;
+  margin: 8px;
+
+ }
+ #sub-image-text1:hover, #sub-image-text2:hover, #sub-image-text3:hover{
+    text-decoration: underline;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .horizontal-container{
+    width:1500px;
+    height: 400px;
+    margin-top:-7010px;
+}
+
+
+.parent-heading{
+    margin-left: 40px;
+}
+#feature{
+    font-size: 18px;
+}
+
+.top-horizontal{
+    display: flex;
+    margin-left: 30px;
+}
+.header{
+    display: flex;
+    margin-left: 30px;
+}
+.horizontal-line{
+    width: 300px;
+    height: 3px;
+    background-color: grey;
+    margin: 10px;
+    display: flex;
+}
+.thin-line{
+    width:20px;
+    height: 3px;
+    background-color: red;
+    position: relative;
+    top: 12px;
+    right: 310px;
+}
+
+#head{
+    font-size: 8px;
+    margin-left: 8px;
+}
+#head1{
+    font-size: 8px;
+    margin-left: 8px;
+    position: relative;
+    left:270px;   
+}
+
+.boxes-outlay{
+    display: flex;
+}
+
+
+.text-display{
+    display: flex; 
+ }
+ .para{
+     margin: 30px;
+     cursor: pointer;
+     position: relative;
+     bottom: 30px;
+     top:-10px;
+ }
+ .para2{
+     position: relative;
+     top:20px;
+     left: 30px;
+     cursor: pointer;
+     bottom: 2px;
+ }
+
+ .parent-image{
+    display: flex;
+    position: relative;
+    bottom: 204px;
+    left: 80px
+}
+
+
+.box15{
+    width:326px;
+    height: 188px;
+    background-color: yellow;
+    margin: 15px;
+}
+.box16{
+    width:326px;
+    height: 188px;
+    background-color: red;
+    margin: 15px;
+}
+.horizontal-container1{
+    margin-bottom: 800px;
+}
+
+.horizontal-container2{
+    margin-top: 1000px;
+}
+
+
+.horizontal-line{
+    width: 300px;
+    height: 3px;
+    background-color: grey;
+    margin: 10px;
+    display: flex;
+}
+.thin-line{
+    width:20px;
+    height: 3px;
+    background-color: red;
+    position: relative;
+    top: 12px;
+    right: 310px;
+}
+
+
+
+
+
+
+
+
+
+.child-head{
+    display: flex;
+}
+#play{
+    position: relative;
+    left:80px;
+}
+#fast{
+   position: relative; 
+   left:350px;
+}
+
+#move{
+    position: relative;
+    left:650px
+}
+.text-display{
+   display: flex; 
+}
+.para{
+    margin: 30px;
+    cursor: pointer;
+    position: relative;
+    bottom: 30px;
+}
+.para2{
+    position: relative;
+    /* top:34px; */
+    left: 30px;
+    cursor: pointer;
+    bottom: 2px;
+}
+.para3{
+    position: relative;
+    left:80px;
+    top: 20px;
+}
+p:hover{
+    text-decoration: underline;
+}
+.p:hover{
+    text-decoration: underline;
+}
+
+
+.parent-image{
+    display: flex;
+    position: relative;
+    bottom: 202px;
+    left: 100px;
+}
+.box15{
+    width:326px;
+    height: 188px;
+    background-color: yellow;
+    margin: 15px;
+}
+.horizontal-line2{
+    width: 300px;
+    height: 3px;
+    background-color: grey;
+    margin: 10px;
+}
+.thin-line2{
+    width:20px;
+    height: 3px;
+    background-color: red;
+    position: relative;
+    top: 3px;
+}
+#head2{
+    font-size: 8px;
+    margin-left: 8px;
+}
+.box16{
+    width:326px;
+    height: 188px;
+    background-color: red;
+    margin: 15px;
+}
+.box17{
+    position: relative;
+    top:15px;
+}
+
+.content{
+    display: flex;
+   
+    
+}
+.statement{
+    display: flex;
+    margin: 15px;
+   
+}
+p{
+    margin: 15px;  
+}
+.box60{
+    width:80px;
+    height: 80px;
+    background-color: blue;
+    margin: 15px;
+}
+.box70{
+    width:80px;
+    height: 80px;
+    background-color: red;
+    margin: 15px;
+}
+#head2{
+    position: relative;
+    left:302px;
+}
+#head3{
+    position: relative;
+    left:615px;
+    font-size: 8px;
+}
+#head4{
+    position: relative;
+    left:542px;
+    font-size: 8px;
+}
+.watch-image{
+    display: flex;
+    margin: 20px;
+    /* background-color: red; */
+    
+}
+#watch{
+    font-size: 20px;
+    margin-left: 15px;
+    
+}
+.croc-image{
+    margin:12px;
+    
+    
+}
+.sea-image{
+    margin:12px;
+}
+.text-image{
+    display: flex;
+}
+
+#reptile{
+    margin-left: 20px;
+}
+#sea{
+    position: relative;
+    left:464px;
+}
+#mammal{
+    position: relative;
+    left:464px; 
+}
+#skyscrapper{
+position: relative;
+left:20px;
+}
+.gallery-container{
+    margin-top: 120px;
+}
+
+.gallery-head{
+ position: relative;
+ left:12px;
+}
+.gallery-image{
+    display: flex;
+}
+#car{
+    margin:10px;
+}
+#plane{
+    margin: 10px;
+}
+#stone{
+    margin: 10px; 
+}
+.gallery-text{
+    display: flex;
+}
+.para4{
+    position: relative;
+    bottom: 20px;
+
+}
+.para5{
+    position: relative;
+    left:66px;
+    bottom: 20px;
+}
+.para6{
+    position: relative;
+    left: 140px;
+    bottom: 20px;
+}
+.gallery-advert{
+    position: relative;
+    left: 750px;
+    bottom: 422px;
+  
+}
+.paid-container{
+    margin-bottom: 9000px;
+    
+}
+
+.paid-content{
+    display: flex;
+}
+#paid-image1{
+    margin: 10px;  
+}
+#paid-image2{
+margin: 10px;
+}
+#paid-image3{
+    margin: 10px;
+}
+#paid-image4{
+    margin: 10px;
+}
+.paid-text{
+    display: flex;
+}
+.para7{
+    position: relative;
+    left: 4px;
+    bottom: 24px; 
+}
+.para8{
+    position: relative;
+    left: 26px;
+    bottom: 24px;
+}
+.para9{
+    position: relative;
+    left: 58px;
+    bottom: 24px;
+}
+.para10{
+    position: relative;
+    left: 86px;
+    bottom: 24px;
+}
+#code{
+    cursor: pointer;
+}
+#code:hover{
+    color:red;
+    text-decoration: none;
+}
+
+#paid{
+    font-size: 18px;
+    margin-left: 8px;
+}
+.paid-mansion{
+    display: flex;
+    
+}
+.para11{
+  position: relative; 
+  bottom: 50px;
+}
+.para12{
+    position: relative; 
+    bottom: 50px;
+    left:160px;
+}
+.para13{
+    position: relative; 
+  bottom: 50px;
+  left:310px;
+}
+.para14{
+    position: relative; 
+    bottom: 50px;
+    left:460px;
+}
+.missed-container{
+    height:1500px ;
+    background-color: black;
+   position: relative;
+   bottom: 9000px;
+}
+#missed{
+    color: white;
+}
+
+.missed-box{
+    display: flex;
+}
+.missed-image1{
+    width: 560px;
+    height: 350px;
+    background-color: brown;
+    margin: 6px;
+}
+.missed-image2{
+    width:480px;
+    height: 250px;
+    background-color: blue;
+    margin: 6px;
+}
+.missed-text{
+   display: flex;
+}
+#para-text{
+    color: white;
+}
+#para-text2{
+    position: relative;
+    left: 346px;
+    bottom: 110px;
+    color: white;
+}
+.para-box{
+    width:130px;
+    height: 76px;
+    background-color: orange;
+    position: relative;
+    left: 140px;
+    bottom: 60px;
+}
+#base-text{
+    color: white;
+    position: relative;
+    left:130px;
+    bottom: 78px;
+}
+.footer-line{
+    width: 1200px;
+    height: 1px;
+    background-color: white;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    position: relative;
+    right: 50px;
+  
+}
+.search{
+    position: absolute;
+    left: 1209px;
+    color: black; 
+    font-size: 13px;  
+}
+
+ .icons{
+    position: absolute;
+    left:668px;
+    font-size: 50px;
+    color: red; 
+ }
+
+ .arrow{
+    color:black;
+    position: absolute;
+    left:1250px;
+    font-size: 10px; 
+ }
+ ::placeholder{
+    color:black;
+    position: relative;
+    right: 80px;
+    font-size: 10px;
+ }
+input{
+    width: 1100px;
+    margin-left: 80px;
+    padding: 4px 90px 4px 90px;
+    border-radius: 2px;
+    border: none;
+}
+#head-footer{
+    color:white;
+    font-size: 15px;
+    margin-left: 20px;
+}
+ul li a{
+    color:white;
+    margin-left: 14px;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.footer-heading{
+    display: flex;
+    justify-content: space-evenly;
+   
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.footer-heading1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    position: relative;
+    top: 30px;
+    right: 0px;
+}
+
+.top-bottom-footer{
+    width: 90%;
+    height: 1px;
+    background-color:white;
+    margin-top: 80px;
+    margin-left: 90px;
+    
+    
+}
+
+.footer-properties{
+  display: flex;
+  margin-top: 30px;
+  margin: 10px;
+  position: relative;
+  left:76px;
+}
+
+#footer-logo{
+    margin: 10px;
+    position: relative;
+    bottom: 8px;
+}
+
+#capitalize{
+    color: white;
+    font-size: 14px;
+    margin: 10px;
+    position: relative;
+    top: 2px;
+    right: 6px;
+}
+.footer-text1{
+    color: white;
+    font-size: 10px;
+    margin: 10px;
+    position: relative;
+    left:450px;
+    font-size: 11px;
+}
+.footer-text2{
+    color: white;
+    font-size: 10px;
+    margin: 10px;
+    position: relative;
+    left:460px;
+    font-size: 11px;
+}
+.footer-text3{
+    /* background-color: red; */
+    padding: 0 0 0 10px;
+    color: white;
+    font-size: 10px;
+    margin: 10px;
+    position: relative;
+    left:480px;
+    font-size: 10px;
+    border-left: 1px solid white;
+    height: 20px;
+   
+}
+.footer-text4{
+    color: white;
+    font-size: 10px;
+    margin: 10px;
+    position: relative;
+    left:500px;
+    font-size: 18px;
+   
+}
+.footer-text5{
+    color: white;
+    font-size: 10px;
+    margin: 10px;
+    position: relative;
+    left:500px;
+    font-size: 18px;
+}
+.footer-text6{
+    color: white;
+    font-size: 10px;
+    margin: 10px;
+    position: relative;
+    left:486px;
+    font-size: 18px;
+    
+}
+
+.btn{
+    position: relative;
+    left:490px;
+    top:10px;
+    padding: 3px;
+    border-radius: 4px;
+    border: none;
+    border:2px solid white;
+    color: white;
+    background-color: black;
+}
+.btn:hover{
+    background-color:grey;
+}
+
+.bottom-bottom-footer-container{
+    padding: 0 96px 0px 90px;
+    /* background-color: green; */
+    width: 100%;
+}
+
+.bottom-bottom-footer{
+    width: 105%;
+    height: 1px;
+    background-color: white;
+    margin-top: 4px;
+    /* margin-left: 90px; */
+    margin-right: 90px;
+}
+.footer-terms{
+ display: flex;
+ position: relative;
+ left:100px;
+ top:20px;
+ 
+ 
+}
+.terms{
+   color:white;
+   margin: 10px;
+   font-size: 10px; 
+}
+.privacy{
+    color:white; 
+    margin: 10px;
+    font-size: 10px;  
+}
+.choices{
+    color:white;
+    margin: 10px;
+    font-size: 10px;   
+}
+.cookies{
+    color:white;
+    margin: 10px;
+    font-size: 10px;   
+}
+.accessibility{
+    color:white;
+    margin: 10px; 
+    font-size: 10px;  
+}
+.newsletters{
+    color:white;
+    margin: 10px;
+    font-size: 10px;  
+}
+.about{
+    color:white;
+    margin: 10px; 
+    font-size: 10px;  
+}
+.transcript{
+    color:white;
+    margin: 10px; 
+    font-size: 10px;  
+}
+#copy{
+    color:white;
+    position: relative;
+    top:26px;
+    left:86px;
+    font-size:10px;
+
+}
+#copy:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

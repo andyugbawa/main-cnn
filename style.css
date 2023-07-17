@@ -10,7 +10,7 @@ body{
 }
 
 .navbar {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
@@ -20,7 +20,7 @@ body{
 
 .navbar-main{
     background-color:rgb(8, 3, 3);
-    height: 40px;
+    height:315px;
     width: 100%;
     display:flex;
     justify-content: center;
@@ -32,7 +32,7 @@ body{
 
    
    .first{
-    /* background-color: green; */
+    background-color: green;
     height: 255px;
     width: 970px;
    }
@@ -42,7 +42,7 @@ body{
    }
 
    .second{
-    /* background-color: blue; */
+    background-color: blue;
     height:40px ;
     width: 100%;
     position: absolute;
@@ -52,13 +52,13 @@ body{
    }
 
    .list1{
-    /* background-color: orange; */
+    background-color: orange;
     height: 40px;
     display: flex;
     
    }
    .list2{
-    /* background-color: pink; */
+    background-color: pink;
     height: 40px;
     display: flex;
    
@@ -111,6 +111,7 @@ body{
     margin: 5px;
     font-size:20px;
     border-right: 2px solid grey;
+    padding-right: 10px;
    }
    .trending-heading h1, p{
     cursor:pointer;
@@ -120,8 +121,12 @@ body{
    }
 
    .box-content{
-    margin-left: 20px;
-    margin-top: 98px;
+    display: flex;
+    padding-left: 40px;
+    /* margin-left: 20px; */
+    /* margin-top: 98px; */
+    background-color: brown;
+
   
 }
 
@@ -130,9 +135,10 @@ body{
    display: flex;
 }
 .head1-box{
-    /* background-color: blue; */
-    margin-left: 20px;
+    background-color: blue;
+    /* margin-left: 20px; */
     padding: 30px 20px 30px 20px;
+    width: 50%;
 
 }
 .top-headline{
@@ -146,6 +152,7 @@ body{
     padding: 10px 0 10px 0;
     cursor: pointer;
     /* background-color: red; */
+    border-bottom: 1px solid grey;
     
 }
 .list-top:hover{
@@ -163,7 +170,10 @@ body{
 }
 
 .head2-box{
+    display: flex;
     padding: 0 20px 0px 20px;
+    background-color: aqua;
+    width: 50%;
     
 }
 .card{
@@ -182,6 +192,7 @@ body{
     display: flex;
 }
 .card2{
+   
     /* background-color: brown; */
     padding: 0 10px 10px 10px;
     margin-left:-24px;
@@ -197,7 +208,7 @@ body{
     /* text-align: center; */
     /* margin-top: 20px; */
     /* background-color: red; */
-    padding: 10px 0 10px 0;
+    padding: 80px 0 10px 0;
     font-weight: 600;
 }
 .card-image4{
@@ -207,14 +218,14 @@ body{
     margin-top: 20px;
 }
 .card-text1{
-    margin-top:10px ;
+    /* margin-top:10px ; */
     background-color: red;
 }
 .card-text1-lead{
-    margin-top:10px ;
+    /* margin-top:10px ; */
     /* background-color: red; */
     font-weight: 600;
-    padding: 10px 0 10px 0;
+    padding: 200px 0 10px 0px;
 }
 .card-image3{
     width: 209px;
@@ -225,12 +236,13 @@ body{
 .card-text3{
     font-size: 10px;
     font-weight: 800;
-    /* background-color: green; */
+    background-color: green;
+    margin-top: 60px; 
 }
 
 .card-text4{
     font-weight: 600;
-    padding: 10px 0 10px 0; 
+    padding: 80px 0 10px 0; 
 }
 
 
@@ -243,6 +255,30 @@ body{
 
 
 
+}
+
+
+@media (max-width:768px) {
+    .box-container1{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-container2{
+        padding-left:32px ;
+    }
+    .head1-box{
+        width: 100%;
+       
+    }
+    .head2-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .trend-heading{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 .long-line{
     width:180px;
@@ -302,6 +338,8 @@ body{
 .second-line{
     /* background-color: blue; */
     height: 50px;
+    font-size: 10px;
+    /* padding: 10px 10px 0 10px; */
     
 }
 
@@ -353,14 +391,18 @@ body{
 }
 .card2-text{
     font-size: 10px;
+    
 }
 .card-text3{
   font-size: 15px;
   font-weight: 600;
+  border-bottom: 1px solid grey;
+  
 
 }
 .travel{
     padding: 10px 0 10px 0;
+    border-bottom: 1px solid grey;
 }
 .box-outlay{
 /* display: flex; */
@@ -382,6 +424,7 @@ left:5px;
 
 .said-text{
     padding:10px 0 20px 4px;
+    border-bottom: 1px solid grey;
 }
 .purple-box{
     width:80px;
@@ -597,6 +640,9 @@ left:5px;
     padding:10px 0 0px 58px;
     /* background-color: red; */
 }
+.said{
+    border-bottom: 1px solid grey;
+}
 .purple-box{
     width:80px;
     height: 80px;
@@ -673,14 +719,14 @@ left:5px;
 .vertical-line{
     width: 300px;
     height: 3px;
-    background-color: grey;
+    background-color;
     margin: 18px;
     display: flex;
 }
 .small-line{
-    width:20px;
-    height: 3px;
-    background-color: red;
+    width:0px;
+    height: px;
+    background-color:;
     
 }
 
@@ -754,19 +800,19 @@ top: 20px;
 .vertical-image1{
    width:320px;
    height: 230px; 
-   background-color: red;
+   background-color: ;
    margin: 10px;
    position: relative;
    bottom: 10px;
    cursor: pointer;
 }
 .vertical-image1::before{
- background-color:blue;
+ background-color:;
 }
 .vertical-image2{
    width: 600px;
    height: 500px;
-   background-color: yellow;
+   background-color: 
    margin: 10px;
    position: relative;
    bottom: 40px;
@@ -775,7 +821,7 @@ top: 20px;
 .vertical-image3{
     width:320px;
     height: 230px; 
-    background-color: blue;
+    background-color:;
     margin: 10px;
     position: relative;
     bottom: 10px;
@@ -821,7 +867,7 @@ top: 20px;
  .sub-image1{
     width:130px;
     height: 76px;
-    background-color: red;
+    background-color: ;
     margin: 8px;
  }
 
@@ -842,7 +888,7 @@ top: 20px;
  #sub-image2{
     width:130px;
     height: 76px;
-    background-color: red;
+    background-color: 
     position: relative;
     left:90px;
     bottom: 20px;
@@ -858,7 +904,7 @@ top: 20px;
  #sub-image3{
     width:130px;
     height: 76px;
-    background-color: red;
+    background-color: ;
     position: relative;
     left:460px;
     bottom: 240px;
@@ -886,9 +932,7 @@ top: 20px;
   margin: 8px;
 
  }
- #sub-image-text1:hover, #sub-image-text2:hover, #sub-image-text3:hover{
-    text-decoration: underline;
- }
+ 
  
 
 
@@ -980,6 +1024,7 @@ top: 20px;
      position: relative;
      bottom: 30px;
      top:-10px;
+    
  }
  .para2{
      position: relative;
@@ -987,6 +1032,10 @@ top: 20px;
      left: 30px;
      cursor: pointer;
      bottom: 2px;
+     
+ }
+ .para-list{
+    border-bottom: 1px solid grey;
  }
 
  .parent-image{
@@ -1637,6 +1686,14 @@ ul li a:hover{
 #copy:hover{
     text-decoration: none;
 }
+
+/* .footer-input{
+    width:800px;
+    height: 1200px;
+    background-color: black;
+    position: relative;
+    bottom: 6820px;
+} */
 
 
 

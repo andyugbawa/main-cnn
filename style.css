@@ -21,7 +21,7 @@ body{
 .navbar-main{
     background-color:rgb(8, 3, 3);
     height:315px;
-    width: 100%;
+    /* width: 100%; */
     display:flex;
     justify-content: center;
     padding-top: 20px;
@@ -262,12 +262,20 @@ body{
     .box-container1{
         display: flex;
         flex-direction: column;
+        padding: 0 0 0 10px;
+    
+    }
+
+    .card-image1{
+    padding: 0px 0 0px  0px;
+     width: 100px;
     }
     .box-container2{
         padding-left:32px ;
     }
     .head1-box{
         width: 100%;
+        /* padding: 0 0 0 20px; */
        
     }
     .head2-box{
@@ -278,6 +286,23 @@ body{
     .trend-heading{
         display: flex;
         flex-wrap: wrap;
+    }
+}
+
+@media (max-width:1440px) {
+    .trend-heading{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .head2-box{
+       /* margin-left: 20px; */
+    }
+    .card{
+      padding: 0px 0  0  20px;
+      margin-left: 100px;
+    }
+    .card-text4{
+        margin-left: 0px 20px  0  30px;
     }
 }
 .long-line{
@@ -471,10 +496,13 @@ left:5px;
 
 .line-containers2{
    margin-top: 650px; 
+  
 }
 
 .line-content{
  display: flex;
+ background-color: gold;
+ padding: 20px  0px  0  40px;
 
 
 
